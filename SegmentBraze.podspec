@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Sources/SegmentBraze/**/*.{swift}'
 
-  s.dependency 'Segment', '~> 1.1.2'
+  s.dependency 'Segment', '>= 1.1.2', '< 2.0.0'
   s.dependency 'BrazeKit', '>= 12.0.0', '< 13.0.0'
 end
